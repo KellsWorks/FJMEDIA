@@ -306,7 +306,7 @@ body {
   color: rgb(255, 255, 255);
 }
 
-/* Footer */
+
 .footer {
   margin-top: 70px;
 }
@@ -383,16 +383,7 @@ body {
     clip-path: circle(1200px at 90% -20%);
     -webkit-clip-path: (1200px at 90% -20%);
   }
-  /* .introduction::after {
-    display: none;
-  } */
-
-  /* .body {
-    width:100%;
-  } */
-
-  .introduction {
-  }
+  
   .introduction .videography {
     top: 40%;
     font-size: 1.2rem;
