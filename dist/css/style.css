@@ -10,7 +10,7 @@ html {
 
 body {
   font-family: sans-serif;
-  overflow-X:hidden;
+  overflow-x: hidden;
 }
 
 #logo {
@@ -56,28 +56,28 @@ body {
 .introduction {
   width: 100%;
   position: relative;
-  height:100vh;
+  height: 100vh;
 }
 
-#slider ,.slide-content {
-  height:100vh;
-  width:100%;
-
+#slider,
+.slide-content {
+  height: 100vh;
+  width: 100%;
 }
- .slide {
+.slide {
   background-position: center;
-  background-size:cover;
-  background-repeat:no-repeat;
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
- .slide-1 {
+.slide-1 {
   background-image: url("../images/1.JPG");
 }
- .slide-2 {
+.slide-2 {
   background-image: url("../images/2.jpg");
 }
 
- .slide-3 {
+.slide-3 {
   background-image: url("../images/6.jpg");
 }
 
@@ -89,7 +89,7 @@ body {
   width: 0;
   height: 0;
   border-style: solid;
-  z-index:8;
+  z-index: 8;
 }
 
 #arrow-left {
@@ -151,8 +151,6 @@ body {
   text-align: center;
 }
 
-
-
 .introduction .slide-content .videography {
   position: absolute;
   top: 50%;
@@ -164,8 +162,6 @@ body {
   margin: 20px 0;
   text-align: center;
 }
-
-
 
 .introduction .slide-content .videography h1 {
   text-align: center;
@@ -306,7 +302,6 @@ body {
   color: rgb(255, 255, 255);
 }
 
-
 .footer {
   margin-top: 70px;
 }
@@ -363,7 +358,7 @@ body {
     flex-direction: column;
     justify-content: space-around;
     align-items: center;
-    background-color: #b22222;;
+    background-color: #b22222;
     height: 100%;
     width: 100%;
     clip-path: circle(100px at 100% -30%);
@@ -383,7 +378,7 @@ body {
     clip-path: circle(1200px at 90% -20%);
     -webkit-clip-path: (1200px at 90% -20%);
   }
-  
+
   .introduction .videography {
     top: 40%;
     font-size: 1.2rem;
@@ -443,28 +438,31 @@ body {
 }
 
 @media screen and (max-width: 500px) {
-
   body {
     overflow-x: hidden;
   }
 
   .introduction {
-     width: 100vw;
+    width: 100vw;
   }
-   .introduction .slide-content .welcome {
-font-size:23px;
-   }
+  .introduction .slide-content .welcome {
+    font-size: 23px;
+  }
 
-   .introduction .slide-content .videography {
-font-size:20px;
-   }
+  .introduction .slide-content .videography {
+    font-size: 20px;
+  }
 
-   .introduction .slide-content .ship {
-     font-size:20px;
-   }
+  .introduction .slide-content .ship {
+    font-size: 20px;
+  }
 
-   .introduction::after {
-     content:"";
-     box-shadow: inset 100px 80px 250px #000, inset -100px -80px 250px #000;
-   }
+  .introduction::after {
+    content: "";
+    box-shadow: inset 100px 80px 250px #000, inset -100px -80px 250px #000;
+  }
+
+  .contactUs .container .form-group input {
+    width: 200px;
+  }
 }
