@@ -443,8 +443,16 @@ body {
 }
 
 @media screen and (max-width: 500px) {
+
+  body {
+    overflow-x: hidden;
+  }
+
+  .introduction {
+     width: 100vw;
+  }
    .introduction .slide-content .welcome {
-font-size:25px;
+font-size:23px;
    }
 
    .introduction .slide-content .videography {

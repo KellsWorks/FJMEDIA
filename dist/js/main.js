@@ -3,19 +3,8 @@ const link = document.querySelector(".header .link");
 const links = document.querySelectorAll(".link li");
 
 nav.addEventListener("click", () => {
-  //   console.log(link);
   link.classList.toggle("open");
 });
-
-// const slide = document.querySelector('.slidex');
-// const slideimg = document.querySelectorAll('.slidex img');
-// const prevBtn = document.querySelector('#prevBtn');
-// const nextBtn = document.querySelector('.nextBtn');
-
-// let counter = 1;
-// let size = slideimg[0].clientWidth;
-
-// slide.style.transform='translate('+ (-size * counter) + 'px)';
 
 let sliderImages = document.querySelectorAll(".slide");
 
